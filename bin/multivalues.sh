@@ -25,4 +25,4 @@ for i; do
     fi
 done
 
-$HELM_BIN $ARGS
+$HELM_BIN $ARGS --kube-context=${kubeContext}
